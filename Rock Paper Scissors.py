@@ -10,7 +10,7 @@ compScore = 0
 numOfGames = int(input("How many games should be played in a 'best of' format?"))
 winningScore = int((numOfGames/2) + .5)
 
-# get the human's input, the computer's choice and ddetermine winner of current round 
+#   get the human's input, the computer's choice and ddetermine winner of current round 
 
 while humanScore != winningScore and compScore != winningScore:
     humanChoice = int(input("what is your choice? 1 = rock, 2 = paper. 3 = scissors"))
