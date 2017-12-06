@@ -1,6 +1,6 @@
 import random
 
-# LAunchcode Project
+# Launchcode Project
 rock = 1
 paper = 2
 scissors = 3
@@ -9,6 +9,8 @@ humanScore = 0
 compScore = 0
 numOfGames = int(input("How many games should be played in a 'best of' format?"))
 winningScore = int((numOfGames/2) + .5)
+
+# get the human's input, the computer's choice and ddetermine winner of current round 
 
 while humanScore != winningScore and compScore != winningScore:
     humanChoice = int(input("what is your choice? 1 = rock, 2 = paper. 3 = scissors"))
@@ -38,7 +40,7 @@ while humanScore != winningScore and compScore != winningScore:
      
     
     
-    
+ # determine who won the overall game   
 
 if humanScore > compScore:
     print("Congratulations! You won.  Your score is:", humanScore, "and the computer's score is", compScore)                  
