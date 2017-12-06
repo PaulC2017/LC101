@@ -6,7 +6,7 @@ def sort_contacts(theNames):
     for names in theNames:
         newNames.append(names)
     
-    # sort them
+    # sort them out
    
     newNames = sorted(newNames)
     
